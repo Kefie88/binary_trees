@@ -32,7 +32,7 @@ levelorder_queue_t *create_node(binary_tree_t *node)
  * @head: A pointer to the head of the queue.
  * Return: Nothing
  */
-oid free_queue(levelorder_queue_t *head)
+void free_queue(levelorder_queue_t *head)
 {
 	levelorder_queue_t *tmp;
 
